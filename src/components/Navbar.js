@@ -5,7 +5,7 @@ const Navbar =()=> (
         <nav>
             <ul>
                 <li><Link to='/'>Home</Link></li>
-                <li><Link to='/inbox'>Inbox</Link></li>
+                <li><Link to='/upload'>Upload</Link></li>
             </ul>
         </nav>
 )
