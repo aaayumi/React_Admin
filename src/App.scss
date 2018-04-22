@@ -1,0 +1,24 @@
+.App {
+    display: flex;
+    flex-direction: row;
+    //position: relative;
+}
+
+nav {
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    background: dimgray;
+
+    ul {
+        list-style: none;
+        li a{
+            text-decoration: none;
+        }
+    }
+}
+
+main {
+    margin-left: 20%;
+    position: absolute;
+}

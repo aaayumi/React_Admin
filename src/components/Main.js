@@ -1,13 +1,13 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 import Dashboard from './Dashboard'
-import Inbox from './Inbox'
+import Upload from './Upload'
 
 const Main =()=> (
     <main>
         <Switch>
             <Route exact path='/' component={Dashboard}/>
-            <Route path='/inbox' component={Inbox}/>
+            <Route path='/upload' component={Upload}/>
         </Switch>
     </main>
 )
