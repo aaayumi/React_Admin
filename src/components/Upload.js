@@ -1,4 +1,5 @@
 import React from 'react'
+import { Prompt } from "react-router-dom";
 import Dropzone from 'react-dropzone'
 
 class Basic extends React.Component {
@@ -31,6 +32,11 @@ class Basic extends React.Component {
                             this.state.files.map(f => <li>{f.name} - {f.size} bytes</li>)
                         }
                     </ul>
+                    <Prompt
+                        message={location =>
+                            `Are you sure you want to go to ${location.pathname}`
+                        }
+                    />
                 </aside>
             </section>
         );
